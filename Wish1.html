@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="message" id="message-box"></div>
+        <img id="image-box" class="hidden" src="" alt="Birthday Image">
+        <button id="next-btn">Click for the next surprise!</button>
+        <audio id="bg-music" autoplay loop>
+            <source src="audio/background-music.mp3" type="audio/mpeg">
+        </audio>
+        <button id="music-control" onclick="toggleMusic()">Pause Music</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
